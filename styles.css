@@ -78,3 +78,33 @@ button[type="submit"]:hover { background-color: #228293; }
 #cancel-edit-btn:hover { background-color: #444444; }
 
 .hidden { display: none !important; }
+
+.posts-section h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.post-card {
+    background: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid #3daee9;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 0.5rem;
+}
+
+.post-title { color: #ffffff; margin: 0; }
+.post-date { font-size: 0.85rem; color: #888888; }
+.post-content { white-space: pre-wrap; margin-bottom: 1.5rem; color: #dcdcdc; }
+
+.post-actions button { padding: 0.4rem 0.8rem; font-size: 0.9rem; margin-right: 0.5rem; }
+.edit-btn { background-color: #d49a2a; color: white; }
+.delete-btn { background-color: #c0392b; color: white; }
